@@ -1,8 +1,8 @@
 import './index.css'
 import { createRoot } from "react-dom/client";
+import First from './components/basics/first';
 
 const el = document.getElementById("root");
 const root = createRoot(el);
-const tag = <strong>Hello react!</strong>;
 
-root.render(<div>{tag}</div>);
+root.render(<div><First></First></div>);
